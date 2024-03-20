@@ -1,26 +1,34 @@
 <template>
   <div
-    class="flex-row items-center justify-between px-6 pt-14 md:px-12 lg:px-24 py-24 sm:py-32 lg:py-48"
+    class="flex flex-row items-center justify-between px-6 md:px-12 lg:px-32 py-16 sm:py-18 lg:py-28"
   >
-    <div class="flex-col gap-4 max-w-xl">
+    <div class="flex flex-col gap-6 lg:gap-8 max-w-xl">
       <div class="text-left">
-        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        <h1 class="text-4xl font-semibold tracking-tight uppercase text-orange-700 sm:text-6xl">
           {{ name }}
         </h1>
-        <h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 class="mt-4 text-2xl font-medium tracking-tight text-orange-800 sm:text-4xl">
           {{ title }}
         </h2>
-        <p class="mt-4 text-base leading-8 text-gray-600">
+        <p class="mt-2 text-base text-slate-800">
           {{ presentation }}
         </p>
       </div>
-      <div class="mt-10 flex items-center gap-x-6">
-        <button
-          class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      <div class="flex items-center gap-x-6">
+        <a
+          href="#"
+          class="rounded-md bg-sky-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500"
         >
           Mon portfolio
-        </button>
+        </a>
       </div>
+    </div>
+    <div>
+      <img
+        class="rounded-md h-[550px]"
+        src="https://anniversaire-celebrite.com/upload/250x333/monsieur-propre-250.jpg"
+        alt="Portrait d'Arthur PARDIEU"
+      />
     </div>
   </div>
 </template>
