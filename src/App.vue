@@ -1,9 +1,12 @@
-<script setup>
-import { RouterView } from 'vue-router'
-</script>
-
 <template>
-  <header>menu</header>
+  <header class="relative w-full">
+    <NavBar />
+  </header>
 
   <RouterView />
 </template>
+
+<script setup>
+import { RouterView } from 'vue-router'
+import NavBar from '../src/components/NavBar.vue'
+</script>
