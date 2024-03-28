@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-row items-center justify-between px-6 md:px-12 lg:px-32 py-16 sm:py-18 lg:py-28"
+    class="flex flex-row items-center justify-between px-12 md:px-20 lg:px-36 pt-24 sm:pt-28 lg:pt-32 pb-24"
   >
     <div class="flex flex-col gap-6 lg:gap-8 max-w-xl">
       <div class="text-left">

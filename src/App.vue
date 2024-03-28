@@ -8,5 +8,5 @@
 
 <script setup>
 import { RouterView } from 'vue-router'
-import NavBar from '../src/components/NavBar.vue'
+import NavBar from '../src/components/modules/NavBar.vue'
 </script>
